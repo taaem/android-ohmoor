@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Vertretungsplan</string>
+
+    <string name="no_data_available">Keine Einträge vorhanden :(</string>
+
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <string name="pref_userKlasse">Jahrgangstufe</string>
+    <string name="pref_userKlasseDialog">Dein Jahrgang</string>
+
+    <string name="pref_userKlasseBuchstabe">Klassenbuchstabe</string>
+    <string name="pref_userKlasseBuchstabeDialog">Dein Buchstabe</string>
+
+    <string name="no_msg_of_day">Klicke um Genaueres zu sehen!</string>
+
+
+    <string-array name="pref_userKlasse_entries">
+        <item>Alle</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_userKlasse_values">
+        <item></item>
+        <item>5/</item>
+        <item>6/</item>
+        <item>7/</item>
+        <item>8/</item>
+        <item>9/</item>
+        <item>10/</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="pref_userKlasseBuchstabe_entries">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+    </string-array>
+    <string name="title_activity_login">Einloggen</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Benutzername</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_in_short">Log In</string>
+    <string name="error_invalid_user">Benutzername wird benötigt!</string>
+    <string name="error_invalid_password">Passwort wird benötigt!</string>
+    <string name="error_incorrect_credentials">Benutzer/Passwort ist falsch!</string>
+    <string name="error_field_required">This field is required</string>
+</resources>

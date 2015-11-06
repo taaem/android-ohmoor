@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_menu"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <item android:id="@+id/settings"
+        android:title="Einstellungen"/>
+    <item android:id="@+id/info"
+        android:title="Information"
+        android:icon="@drawable/ic_announcement_white_48dp"
+        app:showAsAction="always"/>
+</menu>
