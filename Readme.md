@@ -3,6 +3,10 @@
 In Java geschriebene App für das Ohmoor.
 
 
+Benötigt https://github.com/taaem/iserv-nodejs als Server.
+Bei Fragen wendet euch bitte an taaem@mailbox.org
+
+
 ### License
 Copyright [2016] [taaem]
 
