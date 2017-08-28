@@ -31,6 +31,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        Log.d("Vertretungsplan-Settings", "Create");
         // Display the fragment as the main content
         getFragmentManager().beginTransaction()
                 .add(R.id.fragment_container, new SettingsFragment())

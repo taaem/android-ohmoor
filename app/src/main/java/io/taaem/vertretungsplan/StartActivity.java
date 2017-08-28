@@ -28,13 +28,13 @@ public class StartActivity extends AppCompatActivity {
     private void startMainActivity() {
         // Get Preferences and show LoginActivity if not authorized
         Log.d("MainActivity", Boolean.toString(sharedPreferences.getBoolean("pref_userAuth", false)));
+        Intent intent;
         if (!sharedPreferences.getBoolean(SettingsActivity.KEY_PREF_USERAUTH, false)){
-            Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
+            intent = new Intent(this, LoginActivity.class);
         }else{
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+            intent = new Intent(this, MainActivity.class);
         }
-        finish();
+        startActivity(intent);
+//        finish();
     }
 }

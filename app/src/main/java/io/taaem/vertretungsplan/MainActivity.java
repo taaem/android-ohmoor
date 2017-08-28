@@ -35,6 +35,7 @@ import android.app.ProgressDialog;
 import io.taaem.vertretungsplan.R;
 import io.taaem.vertretungsplan.OneFragment;
 import  io.taaem.vertretungsplan.SettingsActivity;
+import io.taaem.vertretungsplan.AboutActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -109,15 +110,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
+        Intent i;
         switch (item.getItemId()) {
             // Show SettingsActivity
             case R.id.settings:
-                Intent i = new Intent(this, SettingsActivity.class);
+                i = new Intent(this, SettingsActivity.class);
+                startActivity(i);
+                return true;
+            case R.id.about:
+                i = new Intent(this, AboutActivity.class);
                 startActivity(i);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    @Override
+    public void onBackPressed()
+    {
+        moveTaskToBack(true); // exist app
     }
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();

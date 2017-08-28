@@ -36,6 +36,8 @@ public class SettingsFragment extends PreferenceFragment {
 
         checkOberStufe(sharedPreferences.getString(SettingsActivity.KEY_PREF_USERKLASSE, ""));
 
+        Log.d("Vertretungsplan", "Created Fragment");
+
     }
 
     Preference.OnPreferenceChangeListener changeListener = new Preference.OnPreferenceChangeListener() {

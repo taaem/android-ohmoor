@@ -4,6 +4,7 @@
     <string name="no_data_available">Keine Einträge vorhanden :(</string>
 
     <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_about">Über</string>
 
     <string name="pref_userKlasse">Jahrgangstufe</string>
     <string name="pref_userKlasseDialog">Dein Jahrgang</string>

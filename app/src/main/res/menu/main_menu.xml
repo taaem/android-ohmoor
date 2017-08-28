@@ -6,6 +6,8 @@
     android:layout_width="match_parent">
     <item android:id="@+id/settings"
         android:title="Einstellungen"/>
+    <item android:id="@+id/about"
+        android:title="Über"/>
     <item android:id="@+id/info"
         android:title="Information"
         android:icon="@drawable/ic_announcement_white_48dp"

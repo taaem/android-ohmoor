@@ -30,7 +30,16 @@
         </activity>
         <activity
             android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.taaem.vertretungsplan.MainActivity" />></activity>
 
         <receiver android:name=".AlarmReceiver">
             <intent-filter>
